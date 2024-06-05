@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#"
+     xml:base="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-450="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#authorised -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#authorised"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#securityPolicy -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#securityPolicy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#hasMedicalCase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#hasMedicalCase"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#hasMedicalHistory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#hasMedicalHistory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#hasMedicalInsuranceCompany -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#hasMedicalInsuranceCompany"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#hasLastName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#hasLastName"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#Anonymity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#Anonymity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#SecurityPolicy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#Authorisation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#Authorisation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#SecurityPolicy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#InsuranceCompany -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#InsuranceCompany"/>
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#SecurityPolicy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#SecurityPolicy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#med_company -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#med_company">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#InsuranceCompany"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#p1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#p1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#Anonymity"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#SecurityPolicy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#p2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#p2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#Authorisation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#SecurityPolicy"/>
+        <authorised rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#user_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#p3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#p3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#Anonymity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#p4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#p4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#Anonymity"/>
+        <authorised rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#med_company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#user_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#user_1">
+        <hasMedicalHistory rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#user_1MH"/>
+        <hasMedicalInsuranceCompany rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#med_company"/>
+        <hasLastName>Doe</hasLastName>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#user_1"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#hasMedicalHistory"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#user_1MH"/>
+        <securityPolicy rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#p3"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#user_1"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#hasLastName"/>
+        <owl:annotatedTarget>Doe</owl:annotatedTarget>
+        <securityPolicy rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#p1"/>
+        <securityPolicy rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#p2"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#user_1MH -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#user_1MH">
+        <hasMedicalCase rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#920202_t"/>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#user_1MH"/>
+        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#hasMedicalCase"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#920202_t"/>
+        <securityPolicy rdf:resource="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#p4"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#920202_t -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/danie/ontologies/2024/1/untitled-ontology-450#920202_t"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
